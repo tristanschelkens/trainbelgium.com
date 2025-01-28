@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0" />
+
+    <title>Contact - trainbelgium.com</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="../images/HomePageCollage(2).png"
+    />
+
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script
+      src="https://kit.fontawesome.com/9332905c2e.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+      integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/b8b2799798.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <section class="header">
+      <nav>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="./Home.html">HOME</a></li>
+            <li><a href="./Photos.html">PHOTOS</a></li>
+            <li><a href="./Me.html">ME</a></li>
+            <li><a href="./Contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <div class="text-box">
+        <h1>Contact</h1>
+      </div>
+    </section>
+    <section class="location">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2499.203276989176!2d4.4184253759722605!3d51.215330871748314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3f7a928500423%3A0xae57140303a0c46a!2strainbelgium!5e0!3m2!1snl!2sbe!4v1710358826707!5m2!1snl!2sbe"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+
+    <section class="contact-us">
+      <div class="row">
+        <div class="contact-col">
+          <div>
+            <a href="https://maps.app.goo.gl/21nEGgoPqg44FcwE9">
+              <i class="fa fa-home"></i>
+            </a>
+            <span>
+              <h5>Koningin Astridplein</h5>
+              <p>Antwerp, Belgium.</p>
+            </span>
+          </div>
+          <div>
+            <a href="mailto:info@trainbelgium.com">
+              <i class="fa fa-envelope-o"></i>
+            </a>
+            <span>
+              <h5>info@trainbelgium.com</h5>
+              <p>E-mail us your query.</p>
+            </span>
+          </div>
+          <div>
+            <a href="tel:+32468566304">
+              <i class="fa fa-phone"></i>
+            </a>
+            <span>
+              <h5>+32 (0)4 68 56 63 04</h5>
+              <p>Call us or send a message via WhatsApp.</p>
+            </span>
+          </div>
+          <div>
+            <a href="https://paypal.com">
+              <i class="fa fa-paypal"></i>
+            </a>
+            <span>
+              <h5>tristanschelkens@gmail.com</h5>
+              <p>
+                If you want to support me you can send me a little something so
+                I can continue my work!
+              </p>
+            </span>
+          </div>
+        </div>
+        <div class="contact-col">
+          <form action="../php/submit_form.php" method="post">
+            <input
+              type="text"
+              name="name"
+              placeholder="Enter Your Name"
+              required
+            />
+            <input
+              id="test"
+              type="email"
+              name="email"
+              placeholder="Enter Your E-mail adress"
+              required
+            />
+            <input
+              type="text"
+              name="subject"
+              placeholder="Enter Your Subject"
+              required
+            />
+            <textarea
+              rows="8"
+              name="message"
+              placeholder="Message"
+              required
+            ></textarea>
+            <button type="submit" class="hero-btn red-btn">Not In Use</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <h4>Disclaimer</h4>
+
+      <p>
+        All the photos you see were taken in places where you are allowed to
+        go.<br />
+        As a result, all photos were taken in complete safety.<br /><br />
+        &copy; 2024
+      </p>
+
+      <div class="icons" id="icons">
+        <!-- <a href="html/Photos.html" class="fa fa-instagram"></a> -->
+        <i
+          class="fa fa-instagram"
+          onclick="window.location.href='https://www.instagram.com/trainbelgium';"
+        ></i>
+
+        <i
+          class="fa-brands fa-facebook"
+          onclick="window.location.href='https://www.facebook.com/profile.php?id=61570558491203';"
+        ></i>
+
+        <i
+          class="fa-brands fa-tiktok"
+          onclick="window.location.href='https://www.tiktok.com/@trainbelgium';"
+        ></i>
+        <i
+          class="fa-brands fa-youtube"
+          onclick="window.location.href='https://www.youtube.com/@trainbelgium-com';"
+        ></i>
+      </div>
+    </section>
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
