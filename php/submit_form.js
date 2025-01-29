@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     document.getElementById("contact-form").addEventListener("submit", function(event) {
         event.preventDefault(); // Voorkomt herladen van de pagina
 
-        emailjs.send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", {
+        emailjs.send("service_gn52r1c", "template_8ngoxvs", {
             name: this.name.value,
             email: this.email.value,
             subject: this.subject.value,
