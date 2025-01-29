@@ -24,7 +24,7 @@
     mail($to, $reason, $messageBody, $headers);
 
     // Voor demonstratiedoeleinden sturen we de gebruiker door naar een bedankpagina
-    header("Location: ../html/Success.html");
+    header("Location: ../html/Success(1).html");
     exit();
 } else {
     // Stuur de gebruiker terug naar het formulier als deze pagina direct wordt benaderd
