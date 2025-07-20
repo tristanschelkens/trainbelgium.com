@@ -368,6 +368,23 @@ h3 {
 }
 
 /* ---- Footer ---- */
+
+.footer {
+  padding-bottom: 30px;
+}
+
+.footer .icons a {
+  font-size: 24px;
+  margin: 0 10px;
+  color: #90a4ae; /* of je huidige kleur */
+  text-decoration: none;
+}
+
+.footer .icons a:hover {
+  color: #000;
+  transition: 0.2s;
+}
+
 .footer a {
   text-decoration: none;
 }
