@@ -1,98 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Me - trainbelgium.com</title>
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>About Me - trainbelgium.com</title>
-
-<link rel="stylesheet" href="../css/style.css">
-
-<script src="https://kit.fontawesome.com/9332905c2e.js" crossorigin="anonymous"></script>
-
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-
+  <link rel="stylesheet" href="../css/style.css" />
+  <script src="https://kit.fontawesome.com/9332905c2e.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
 </head>
 
 <body>
+  <div id="navbar"></div>
 
-<section class="header">
+  <section class="section">
+    <div class="row">
+      <div class="about-col">
+        <h1>Who am I?</h1>
+        <p>
+          Hello! I'm an 18-year-old trainspotter with a deep interest in trains.
+          My favourite locomotives from NMBS are the HLE 18/19 and the HLE 27.
+          I am currently a trainee train driver at NMBS following the official training programme.
+        </p>
+        <a href="Photos.html" class="hero-btn red-btn">Explore</a>
+      </div>
 
-<nav>
+      <div class="about-col">
+        <img src="../images/collageAboutMe.png" alt="About me collage">
+      </div>
+    </div>
+  </section>
 
-<i class="fa fa-bars" onclick="showMenu()"></i>
+  <div id="footer"></div>
 
-<div class="nav-links" id="navLinks">
-
-<i class="fa fa-times" onclick="hideMenu()"></i>
-
-<ul>
-<li><a href="Home.html">HOME</a></li>
-<li><a href="Photos.html">PHOTOS</a></li>
-<li><a href="Me.html">ME</a></li>
-<li><a href="Contact.html">CONTACT</a></li>
-</ul>
-
-</div>
-
-</nav>
-
-<div class="text-box">
-<h1>About Me</h1>
-</div>
-
-</section>
-
-<section class="about-us">
-
-<div class="row">
-
-<div class="about-col">
-
-<h1>Who am I?</h1>
-
-<p>
-
-Hello! I'm an 18-year-old trainspotter with a deep interest in trains.
-
-My favourite locomotives from NMBS are the HLE 18/19 and the HLE 27.
-
-I am currently a trainee train driver at NMBS following the official training programme.
-
-</p>
-
-<a href="Photos.html" class="hero-btn red-btn">Explore</a>
-
-</div>
-
-<div class="about-col">
-
-<img src="../images/collageAboutMe.png">
-
-</div>
-
-</div>
-
-</section>
-
-<section class="footer">
-
-<h4>Disclaimer</h4>
-
-<p>
-
-All photos were taken in places where you are allowed to go.<br>
-All photos were taken safely.<br><br>
-
-© 2026 trainbelgium
-
-</p>
-
-</section>
-
-<script src="../js/script.js"></script>
-
+  <script src="../js/loadComponents.js"></script>
+  <script src="../js/script.js"></script>
 </body>
 </html>
