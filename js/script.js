@@ -4,12 +4,9 @@ function toggleMenu() {
   nav.classList.toggle("active");
 }
 
-// (nice) Sluit menu automatisch als je op een link klikt (mobiel)
+// sluit mobiel menu na klik op link
 document.addEventListener("click", (e) => {
   const nav = document.getElementById("navLinks");
   if (!nav) return;
-
-  if (e.target.matches("#navLinks a")) {
-    nav.classList.remove("active");
-  }
+  if (e.target.matches("#navLinks a")) nav.classList.remove("active");
 });
