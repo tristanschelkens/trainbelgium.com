@@ -750,12 +750,12 @@ h3 {
     margin-bottom: 30px;
     position: relative;
     overflow: hidden;
-    height: 250px; /* zelfde hoogte voor alle foto's */
+    aspect-ratio: 4 / 3; /* zorgt dat alle foto's exact dezelfde verhouding hebben */
 }
 
 .campus-coll img{
     width: 100%;
     height: 100%;
-    object-fit: cover; /* zorgt dat foto mooi gecropt wordt */
+    object-fit: cover;
     display: block;
 }
