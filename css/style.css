@@ -751,11 +751,14 @@ h3 {
 }
 .campus-coll{
     flex-basis: 32%;
-    border-radius: 15px;
     margin-bottom: 30px;
+}
+
+.campus-coll div{
     position: relative;
     overflow: hidden;
-    aspect-ratio: 4 / 3; /* zorgt dat alle foto's exact dezelfde verhouding hebben */
+    border-radius: 15px;
+    aspect-ratio: 4 / 3;
 }
 
 .campus-coll img{
