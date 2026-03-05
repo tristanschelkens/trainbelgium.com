@@ -476,7 +476,7 @@ img {
 
 .filter-btn:hover {
   transform: translateY(-1px);
-  border-color: rgba(0, 92, 185, 0.35);
+  border-color: var(--nmbs-blue);
 }
 
 .filter-btn.active {
