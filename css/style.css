@@ -90,7 +90,7 @@ img {
   bottom: -4px;
   width: 0%;
   height: 2px;
-  background: #f44336;
+  background: #005cb9;
   transition: 0.22s;
 }
 
@@ -193,14 +193,14 @@ img {
 }
 
 .btn-primary {
-  background: #f44336;
-  border-color: #f44336;
+  background: #005cb9;
+  border-color: #005cb9;
   color: #fff;
 }
 
 .btn-primary:hover {
-  background: #d7382e;
-  border-color: #d7382e;
+  background: #005cb9;
+  border-color: #005cb9;
 }
 
 .btn-ghost {
@@ -251,8 +251,8 @@ img {
 .badge {
   padding: 8px 12px;
   border-radius: 999px;
-  background: rgba(244, 67, 54, 0.1);
-  border: 1px solid rgba(244, 67, 54, 0.22);
+  background: #005cb9;
+  border: 1px solid #005cb9;
   font-size: 13px;
   font-weight: 700;
 }
@@ -378,7 +378,7 @@ img {
 .contact-card i {
   font-size: 28px;
   margin-bottom: 8px;
-  color: #f44336;
+  color: #005cb9;
 }
 
 .contact-form-wrap {
@@ -412,8 +412,8 @@ img {
 
 .contact-form input:focus,
 .contact-form textarea:focus {
-  border-color: rgba(244, 67, 54, 0.65);
-  box-shadow: 0 0 0 4px rgba(244, 67, 54, 0.12);
+  border-color: #005cb9;
+  box-shadow: 0 0 0 4px #005cb9;
 }
 
 .footer {
