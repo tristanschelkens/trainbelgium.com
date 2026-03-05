@@ -179,6 +179,8 @@ h3 {
 
 /* ---- Campus ---- */
 
+
+
 .campus {
   width: 80%;
   margin: auto;
@@ -195,17 +197,20 @@ h3 {
   /* transform: translateX(-50%); */
   /* position: absolute; */
 }
-.campus-coll {
-  flex-basis: 32%;
-  border-radius: 10px;
-  margin-bottom: 30px;
-  position: relative;
-  overflow: hidden;
+.campus-coll{
+    flex-basis: 32%;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    aspect-ratio: 4 / 3; /* zorgt dat alle foto's exact dezelfde verhouding hebben */
 }
-.campus-coll img {
-  width: 100%;
-  display: block;
-  border-radius: 20px;
+
+.campus-coll img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
 .fcampus-coll {
   flex-basis: 32%;
