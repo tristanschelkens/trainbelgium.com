@@ -35,7 +35,6 @@ img {
   padding: 56px 0;
 }
 
-/* NAVBAR */
 .navbar {
   position: sticky;
   top: 0;
@@ -69,7 +68,6 @@ img {
   display: none;
 }
 
-/* desktop menu */
 .nav-links ul {
   list-style: none;
   display: flex;
@@ -218,7 +216,6 @@ img {
   background: rgba(255, 255, 255, 0.18);
 }
 
-/* HOME sections */
 .home-intro {
   background: #fff;
   border-top: 1px solid rgba(0, 0, 0, 0.06);
@@ -284,7 +281,6 @@ img {
   opacity: 0.8;
 }
 
-/* PHOTO GRID (also used on Photos page) */
 .photo-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
@@ -346,7 +342,6 @@ img {
   transform: translateY(0);
 }
 
-/* PAGE TITLES */
 .page-title {
   padding: 32px 0 12px 0;
 }
@@ -361,7 +356,6 @@ img {
   line-height: 1.6;
 }
 
-/* ME page */
 .profile-wrap {
   display: grid;
   grid-template-columns: 1.1fr 0.9fr;
@@ -369,7 +363,6 @@ img {
   align-items: start;
 }
 
-/* CONTACT page */
 .contact-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -427,9 +420,8 @@ img {
   box-shadow: 0 0 0 4px rgba(244, 67, 54, 0.12);
 }
 
-/* FOOTER (smaller) */
 .footer {
-  margin-top: auto; /* pushes footer down */
+  margin-top: auto;
   background: #000;
   color: #fff;
 }
@@ -437,7 +429,7 @@ img {
 .footer-inner {
   width: min(1280px, 96%);
   margin: 0 auto;
-  padding: 18px 0; /* smaller! */
+  padding: 18px 0;
 }
 
 .footer-top {
@@ -489,11 +481,10 @@ img {
 }
 
 .icons i {
-  font-size: 16px; /* smaller */
+  font-size: 16px;
   color: #fff;
 }
 
-/* MOBILE */
 @media (max-width: 900px) {
   .hero-card h1 {
     font-size: 40px;
@@ -571,7 +562,6 @@ img {
   }
 }
 
-/* --- FORCE CENTER FIX (override) --- */
 .container,
 .nav-inner,
 .footer-inner {
@@ -583,7 +573,6 @@ img {
   width: min(1400px, 96%) !important;
 }
 
-/* als je page-title gebruikt */
 .page-title {
   width: min(1400px, 96%) !important;
   margin-left: auto !important;
