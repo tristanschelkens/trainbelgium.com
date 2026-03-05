@@ -25,7 +25,6 @@ img {
   display: block;
 }
 
-/* layout */
 .container {
   width: min(1400px, 96%);
 }
@@ -99,7 +98,6 @@ img {
   width: 100%;
 }
 
-/* HERO */
 .hero {
   position: relative;
   width: 100%;
@@ -179,7 +177,6 @@ img {
   flex-wrap: wrap;
 }
 
-/* buttons */
 .btn {
   display: inline-flex;
   align-items: center;
