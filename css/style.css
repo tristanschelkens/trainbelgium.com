@@ -744,3 +744,18 @@ h3 {
   bottom: 49%;
   opacity: 1;
 }
+.campus-coll{
+    flex-basis: 32%;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    height: 250px; /* zelfde hoogte voor alle foto's */
+}
+
+.campus-coll img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* zorgt dat foto mooi gecropt wordt */
+    display: block;
+}
