@@ -1,18 +1,15 @@
-// Mobile menu
 function toggleMenu() {
   const nav = document.getElementById("navLinks");
   if (!nav) return;
   nav.classList.toggle("active");
 }
 
-// sluit mobiel menu na klik op link
 document.addEventListener("click", (e) => {
   const nav = document.getElementById("navLinks");
   if (!nav) return;
   if (e.target.matches("#navLinks a")) nav.classList.remove("active");
 });
 
-// Photo filters (Photos page)
 (function initPhotoFilters() {
   const filters = document.getElementById("photoFilters");
   const grid = document.getElementById("photoGrid");
@@ -36,6 +33,7 @@ document.addEventListener("click", (e) => {
     if (noResults) {
       noResults.style.display = visibleCount === 0 ? "block" : "none";
     }
+    grid.classList.toggle("has-few", visibleCount <= 2);
   }
 
   buttons.forEach((btn) => {
@@ -46,6 +44,5 @@ document.addEventListener("click", (e) => {
     });
   });
 
-  // default
   applyFilter("all");
 })();
