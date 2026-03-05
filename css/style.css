@@ -649,3 +649,24 @@ img {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   }
 }
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* main content vult de pagina zodat footer altijd onderaan komt */
+main {
+  flex: 1;
+}
+
+/* als je geen <main> gebruikt: forceer dat de footer “duwt” */
+.footer {
+  margin-top: auto;
+}
