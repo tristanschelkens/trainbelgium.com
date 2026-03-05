@@ -570,3 +570,22 @@ img {
     font-size: 34px;
   }
 }
+
+/* --- FORCE CENTER FIX (override) --- */
+.container,
+.nav-inner,
+.footer-inner {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.container {
+  width: min(1400px, 96%) !important;
+}
+
+/* als je page-title gebruikt */
+.page-title {
+  width: min(1400px, 96%) !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
