@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>trainbelgium</title>
+<title>Home - trainbelgium.com</title>
 
 <link rel="stylesheet" href="../css/style.css">
 
@@ -18,19 +18,59 @@
 
 <body>
 
-<div id="navbar"></div>
+<section class="header">
 
-<header class="hero">
+<nav>
+
+<i class="fa fa-bars" onclick="showMenu()"></i>
+
+<div class="nav-links" id="navLinks">
+
+<i class="fa fa-times" onclick="hideMenu()"></i>
+
+<ul>
+<li><a href="Home.html">HOME</a></li>
+<li><a href="Photos.html">PHOTOS</a></li>
+<li><a href="Me.html">ME</a></li>
+<li><a href="Contact.html">CONTACT</a></li>
+</ul>
+
+</div>
+
+</nav>
+
+<div class="text-box">
 
 <h1>trainbelgium.com</h1>
 
 <a href="Photos.html" class="hero-btn">Explore</a>
 
-</header>
+</div>
 
-<div id="footer"></div>
+</section>
 
-<script src="../js/loadComponents.js"></script>
+<section class="footer">
+
+<h4>Disclaimer</h4>
+
+<p>
+All the photos were taken in places where you are allowed to go.<br>
+All photos were taken safely.<br><br>
+© 2026 trainbelgium
+</p>
+
+<div class="icons">
+
+<i class="fa-brands fa-instagram"></i>
+<i class="fa-brands fa-facebook"></i>
+<i class="fa-brands fa-tiktok"></i>
+<i class="fa-brands fa-youtube"></i>
+
+</div>
+
+</section>
+
+<script src="../js/script.js"></script>
 
 </body>
 </html>
