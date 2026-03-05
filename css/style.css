@@ -301,6 +301,7 @@ img {
   cursor: pointer;
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
   border: 1px solid rgba(0, 0, 0, 0.06);
+  image-rendering: auto;
 }
 
 .photo-card img {
