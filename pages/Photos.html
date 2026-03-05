@@ -24,11 +24,30 @@
       <p>A selection of trainspotting locations.</p>
     </div>
 
-    <section class="container section" style="padding-top: 18px">
-      <h2>Belgium</h2>
+    <!-- FILTERS -->
+    <div class="container" style="padding-bottom: 10px">
+      <div class="filters" id="photoFilters">
+        <button class="filter-btn active" type="button" data-filter="all">
+          All
+        </button>
+        <button class="filter-btn" type="button" data-filter="belgium">
+          Belgium
+        </button>
+        <button class="filter-btn" type="button" data-filter="germany">
+          Germany
+        </button>
+        <button class="filter-btn" type="button" data-filter="france">
+          France
+        </button>
+      </div>
+    </div>
 
-      <div class="photo-grid">
-        <div class="photo-card">
+    <section class="container section" style="padding-top: 18px">
+      <h2>Gallery</h2>
+
+      <div class="photo-grid" id="photoGrid">
+        <!-- BELGIUM -->
+        <div class="photo-card" data-country="belgium" data-title="Brussels">
           <img
             src="../images/Belgium/Brussels-Midi, Brussels/Brussels.jpg"
             alt="Brussels"
@@ -36,7 +55,7 @@
           <div class="overlay"><h3>Brussels</h3></div>
         </div>
 
-        <div class="photo-card">
+        <div class="photo-card" data-country="belgium" data-title="Liege">
           <img
             src="../images/Belgium/Liege-Guillemins, Liege/IMG_3139.JPEG"
             alt="Liege"
@@ -44,7 +63,7 @@
           <div class="overlay"><h3>Liege</h3></div>
         </div>
 
-        <div class="photo-card">
+        <div class="photo-card" data-country="belgium" data-title="Mechelen">
           <img
             src="../images/Belgium/Mechelen, Antwerp/IMG_5983.JPEG"
             alt="Mechelen"
@@ -52,30 +71,33 @@
           <div class="overlay"><h3>Mechelen</h3></div>
         </div>
 
-        <div class="photo-card">
+        <div class="photo-card" data-country="belgium" data-title="Duffel">
           <img src="../images/Belgium/Duffel, Antwerp/image.png" alt="Duffel" />
           <div class="overlay"><h3>Duffel</h3></div>
         </div>
-        <div class="photo-card">
+
+        <div class="photo-card" data-country="belgium" data-title="Leuven">
           <img
             src="../images/Belgium/Leuven, Flemish Brabant/IMG_5974.JPEG"
             alt="Leuven"
           />
           <div class="overlay"><h3>Leuven</h3></div>
         </div>
-        <div class="photo-card">
+
+        <div class="photo-card" data-country="belgium" data-title="Lier">
           <img src="../images/Belgium/Lier, Antwerp/Lier.png" alt="Lier" />
           <div class="overlay"><h3>Lier</h3></div>
         </div>
 
-        <div class="photo-card">
+        <div class="photo-card" data-country="belgium" data-title="Lokeren">
           <img
             src="../images/Belgium/Lokeren, East Flanders/IMG_4813.JPEG"
-            alt="Duffel"
+            alt="Lokeren"
           />
           <div class="overlay"><h3>Lokeren</h3></div>
         </div>
-        <div class="photo-card">
+
+        <div class="photo-card" data-country="belgium" data-title="Luchtbal">
           <img
             src="../images/Belgium/Luchtbal, Antwerp/image.png"
             alt="Luchtbal"
@@ -83,28 +105,62 @@
           <div class="overlay"><h3>Luchtbal</h3></div>
         </div>
 
-        <div class="photo-card">
+        <div class="photo-card" data-country="belgium" data-title="Mechelen">
           <img
             src="../images/Belgium/Mechelen, Antwerp/IMG_5983.JPEG"
             alt="Mechelen"
           />
           <div class="overlay"><h3>Mechelen</h3></div>
         </div>
-        <div class="photo-card">
+
+        <div class="photo-card" data-country="belgium" data-title="Nijlen">
           <img
             src="../images/Belgium/Nijlen, Antwerp/IMG_5293.JPEG"
             alt="Nijlen"
           />
           <div class="overlay"><h3>Nijlen</h3></div>
         </div>
-        <div class="photo-card">
+
+        <div class="photo-card" data-country="belgium" data-title="Ghent">
           <img
             src="../images/Belgium/Sint Pieters, Ghent/IMG_4407.JPEG"
             alt="Ghent"
           />
           <div class="overlay"><h3>Ghent</h3></div>
         </div>
+
+        <!-- GERMANY (voorbeeld) -->
+        <!-- VERVANG de src + titel door jouw echte foto’s -->
+        <div
+          class="photo-card"
+          data-country="germany"
+          data-title="Germany - Station"
+        >
+          <img
+            src="../images/Germany/your-station/photo1.jpg"
+            alt="Germany station"
+          />
+          <div class="overlay"><h3>Germany</h3></div>
+        </div>
+
+        <!-- FRANCE (voorbeeld) -->
+        <div
+          class="photo-card"
+          data-country="france"
+          data-title="France - Station"
+        >
+          <img
+            src="../images/France/your-station/photo1.jpg"
+            alt="France station"
+          />
+          <div class="overlay"><h3>France</h3></div>
+        </div>
       </div>
+
+      <!-- empty state -->
+      <p class="no-results" id="noResults" style="display: none">
+        No photos found in this category (yet).
+      </p>
     </section>
 
     <div id="footer"></div>

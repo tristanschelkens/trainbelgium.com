@@ -574,3 +574,47 @@ img {
   margin-left: auto !important;
   margin-right: auto !important;
 }
+
+.filters {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.filter-btn {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  background: #fff;
+  padding: 10px 14px;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 13px;
+  cursor: pointer;
+  transition: 0.18s;
+}
+
+.filter-btn:hover {
+  transform: translateY(-1px);
+}
+
+.filter-btn.active {
+  background: #f44336;
+  border-color: #f44336;
+  color: #fff;
+}
+
+/* hide/show animation */
+.photo-card {
+  transition:
+    transform 0.18s,
+    opacity 0.18s;
+}
+
+.photo-card.is-hidden {
+  display: none;
+}
+
+.no-results {
+  margin-top: 18px;
+  opacity: 0.75;
+}
