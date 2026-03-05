@@ -28,8 +28,7 @@ img {
 
 /* layout */
 .container {
-  width: min(1280px, 96%);
-  margin: 0 auto;
+  width: min(1400px, 96%);
 }
 
 .section {
